@@ -12,6 +12,7 @@
     "body-parser": "^1.14.1",
     "config": "^1.17.1",
     "express": "^4.13.3",
+    "express-handlebars": "^2.0.1",
     "method-override": "^2.3.5",
     "mongoose": "^4.2.6",
     "q": "^1.4.1",
