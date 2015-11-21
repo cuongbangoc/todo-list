@@ -5,6 +5,7 @@ var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
 var methodOverride = require('method-override');
+var mongoose = require('mongoose');
 
 var config = require('config');
 var exphbs  = require('express-handlebars');
@@ -18,7 +19,7 @@ var port = process.env.PORT || config.get('server.port');;
 
 // connect mongoDB
 var mongo_url = config.get('mongodb.url');
-//mongoose.connect(mongo_url);
+mongoose.connect(mongo_url);
 
 app.use(bodyParser.json());
 // parse application/vnd.api+json as json

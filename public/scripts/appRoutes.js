@@ -8,9 +8,9 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
         })
 
         // nerds page that will use the NerdController
-        .when('/nerds', {
-            templateUrl: 'views/nerd.html',
-            controller: 'NerdController'
+        .when('/todos', {
+            templateUrl: 'views/todo.html',
+            controller: 'TodoController'
         });
 
     $locationProvider.html5Mode(true);

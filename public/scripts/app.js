@@ -1,1 +1,1 @@
-angular.module('todoApp', ['ngRoute', 'appRoutes', 'MainCtrl', 'NerdCtrl', 'NerdService']);
+angular.module('todoApp', ['ngRoute', 'appRoutes', 'MainCtrl', 'TodoCtrl', 'TodoService']);
